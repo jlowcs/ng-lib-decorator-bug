@@ -1,0 +1,39 @@
+{
+  "name": "ng-lib-decorator-bug",
+  "version": "0.0.0",
+  "author": "Jerome Louis",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.802.1",
+    "@angular-devkit/build-ng-packagr": "^0.802.1",
+    "@angular/cli": "^8.2.1",
+    "@angular/common": "^8.2.1",
+    "@angular/compiler": "^8.2.1",
+    "@angular/compiler-cli": "^8.2.1",
+    "@angular/core": "^8.2.1",
+    "@angular/platform-browser": "^8.2.1",
+    "@angular/platform-browser-dynamic": "^8.2.1",
+    "@types/core-js": "^2.5.2",
+    "core-js": "^3.2.0",
+    "ng-packagr": "^5.4.3",
+    "rxjs": "^6.5.2",
+    "tsickle": "^0.36.0",
+    "tslint": "^5.18.0",
+    "zone.js": "^0.10.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "main": "bundles/ng-lib-decorator-bug.umd.js",
+  "module": "fesm5/ng-lib-decorator-bug.js",
+  "es2015": "fesm2015/ng-lib-decorator-bug.js",
+  "esm5": "esm5/ng-lib-decorator-bug.js",
+  "esm2015": "esm2015/ng-lib-decorator-bug.js",
+  "fesm5": "fesm5/ng-lib-decorator-bug.js",
+  "fesm2015": "fesm2015/ng-lib-decorator-bug.js",
+  "typings": "ng-lib-decorator-bug.d.ts",
+  "metadata": "ng-lib-decorator-bug.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

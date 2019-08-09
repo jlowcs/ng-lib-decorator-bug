@@ -1,0 +1,39 @@
+{
+  "name": "ng-lib-decorator-bug",
+  "version": "0.0.0",
+  "author": "Jerome Louis",
+  "scripts": {
+    "build-lib": "ng build",
+    "build": "ng build app",
+    "start": "ng serve app --port 3000",
+    "start-es5": "ng serve app-es5 --port 3000",
+    "watch": "rm -rf dist && npm run build -- --watch"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.802.1",
+    "@angular-devkit/build-ng-packagr": "^0.802.1",
+    "@angular/cli": "^8.2.1",
+    "@angular/common": "^8.2.1",
+    "@angular/compiler": "^8.2.1",
+    "@angular/compiler-cli": "^8.2.1",
+    "@angular/core": "^8.2.1",
+    "@angular/platform-browser": "^8.2.1",
+    "@angular/platform-browser-dynamic": "^8.2.1",
+    "@types/core-js": "^2.5.2",
+    "core-js": "^3.2.0",
+    "ng-packagr": "^5.4.3",
+    "rxjs": "^6.5.2",
+    "tsickle": "^0.36.0",
+    "tslint": "^5.18.0",
+    "zone.js": "^0.10.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "lib": {
+      "entryFile": "./index.ts"
+    }
+  }
+}
