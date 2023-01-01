@@ -10,7 +10,7 @@
     "watch": "rm -rf dist && npm run build -- --watch"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.802.1",
+    "@angular-devkit/build-angular": "^15.0.4",
     "@angular-devkit/build-ng-packagr": "^0.802.1",
     "@angular/cli": "^8.2.1",
     "@angular/common": "^8.2.1",
